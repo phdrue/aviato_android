@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            />
+
+
+        <EditText
+            android:id="@+id/et_lodin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/login"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#111"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#111"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            />
+
+        <Button
+            android:id="@+id/b_autoriz"
+            android:layout_width="225dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="#C0C0C0"
+            android:drawableTint="#C0C0C0"
+
+            android:foregroundTint="#C0C0C0"
+            android:padding="10dp"
+            android:shadowColor="#C0C0C0"
+            android:text="@string/LogIn"
+            android:textColorHighlight="#C0C0C0"
+            android:textColorLink="#C0C0C0"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/link_to_register"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_marginTop="40dip"-->
+<!--            android:layout_marginBottom="40dip"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Нажми меня, если нет аккаунта"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="20dip"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

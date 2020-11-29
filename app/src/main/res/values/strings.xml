@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hakkaton</string>
+    <string name="title_home">Выход</string>
+    <string name="title_dashboard">Личный кабинет</string>
+    <string name="title_notifications">Сканер QR</string>
+
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="LogIn">Авторизация</string>
+    <string name="title_activity_navigator">NavigatorActivity</string>
+    <string name="title_activity_navigator_driwer">NavigatorDriwerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
